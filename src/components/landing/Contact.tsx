@@ -26,7 +26,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <div className="font-semibold">Endereço</div>
-                    <div className="text-muted-foreground text-sm">Rua Justino Alcântara, Centro<br />Ubajara — Ceará</div>
+                    <div className="text-muted-foreground text-sm">Centro de Ubajara<br />Ubajara — Ceará</div>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
