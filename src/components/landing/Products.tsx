@@ -7,7 +7,7 @@ import { ArrowUpRight } from "lucide-react";
 const WHATSAPP = "https://wa.me/5588000000000?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20um%20aparelho";
 
 const products = [
-  { title: "iPhones", desc: "Linha completa, do 11 ao 15 Pro Max. Novos e semi-novos vistoriados.", img: iphoneImg, tag: "Mais procurado" },
+  { title: "iPhones", desc: "Linha completa, do 8 ao 17 Pro Max. Novos e semi-novos.", img: iphoneImg, tag: "Mais procurado" },
   { title: "Xiaomi", desc: "Redmi, POCO e linha Mi. Performance que impressiona pelo melhor preço.", img: xiaomiImg, tag: "Custo-benefício" },
   { title: "Tablets", desc: "iPad e tablets Android. Ideais para trabalho, estudo e entretenimento.", img: tabletImg, tag: "Versátil" },
 ];
@@ -22,7 +22,7 @@ const Products = () => {
             Tecnologia de ponta, <span className="text-gradient-gold">no seu bolso</span>.
           </h2>
           <p className="mt-4 text-muted-foreground text-lg">
-            Trabalhamos com aparelhos novos e semi-novos, todos testados e com garantia.
+            Trabalhamos com aparelhos novos e semi-novos, todos testados e com garantia de 3 meses, acompanhando capinha, carregador e pelicula.
           </p>
         </div>
 

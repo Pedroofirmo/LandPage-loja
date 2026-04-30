@@ -18,11 +18,11 @@ const Hero = () => {
             Ubajara · Ceará
           </div>
           <h1 className="font-display text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.05] tracking-tighter">
-            Seu próximo <span className="text-gradient-gold">iPhone</span> está aqui.
+            Seu próximo <span className="text-gradient-gold">Celular Novo</span> está aqui.
           </h1>
           <p className="mt-6 text-lg text-muted-foreground max-w-xl leading-relaxed">
-            iPhones, Xiaomi, celulares e tablets — novos e semi-novos.
-            Damos seu aparelho atual como entrada e parcelamos no cartão. Confiança e qualidade que você merece.
+            iPhones, Xiaomi, Sansung, celulares e tablets — novos e semi-novos.
+            Recebemos seu aparelho atual como entrada na negociação do seu aparelho novo. Confiança e qualidade que você merece.
           </p>
 
           <div className="mt-10 flex flex-wrap gap-4">
@@ -40,7 +40,7 @@ const Hero = () => {
             {[
               { k: "100%", v: "Garantia" },
               { k: "12x", v: "no cartão" },
-              { k: "5%", v: "OFF no Pix" },
+              { k: "3 meses", v: "DE GARANTIA" },
             ].map((s) => (
               <div key={s.v}>
                 <div className="font-display text-2xl font-bold text-gradient-gold">{s.k}</div>

@@ -11,7 +11,7 @@ const Footer = () => {
           <span className="font-display font-semibold text-foreground">Ryan Cell</span>
           <span>· Ubajara/CE</span>
         </div>
-        <div>© {new Date().getFullYear()} Ryan Cell. Todos os direitos reservados.</div>
+        <div>© {new Date().getFullYear()} João Pedro Firmo, direitos reservados.</div>
       </div>
     </footer>
   );
