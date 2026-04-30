@@ -36,7 +36,7 @@ const TradeIn = () => {
         <div className="order-1 lg:order-2">
           <div className="text-xs uppercase tracking-[0.2em] text-primary font-semibold mb-4">Troca na negociação</div>
           <h2 className="font-display text-4xl md:text-5xl font-bold tracking-tight leading-tight">
-            Recebemos seu iPhone <br />
+            Recebemos seu Celular <br />
             <span className="text-gradient-gold">na entrada</span>.
           </h2>
           <p className="mt-5 text-muted-foreground text-lg leading-relaxed">

@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { MapPin, MessageCircle, Clock, Instagram } from "lucide-react";
+import lojaImg from "@/assets/loja-ryancell.jpg";
 
 const WHATSAPP = "https://wa.me/5588000000000?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Ryan%20Cell";
 
@@ -54,14 +55,31 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="relative aspect-square rounded-3xl overflow-hidden border border-border">
-              <iframe
-                title="Localização Ryan Cell - Ubajara CE"
-                src="https://www.google.com/maps?q=Rua+Justino+Alcantara+Centro+Ubajara+Ceara&output=embed"
-                className="absolute inset-0 w-full h-full grayscale contrast-125"
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              />
+            <div className="space-y-4">
+              <div className="relative aspect-[4/5] rounded-3xl overflow-hidden border border-primary/30 shadow-elegant group">
+                <img
+                  src={lojaImg}
+                  alt="Loja Ryan Cell Importados em Ubajara/CE com vasta variedade de iPhones e celulares"
+                  loading="lazy"
+                  className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent pointer-events-none" />
+                <div className="absolute bottom-4 left-4 right-4 flex items-center gap-2">
+                  <span className="rounded-full bg-primary text-primary-foreground px-3 py-1 text-[11px] font-bold uppercase tracking-wider shadow-gold">
+                    Nossa loja
+                  </span>
+                  <span className="text-xs text-foreground/90">+200 aparelhos em estoque</span>
+                </div>
+              </div>
+              <div className="relative aspect-[16/10] rounded-2xl overflow-hidden border border-border">
+                <iframe
+                  title="Localização Ryan Cell - Ubajara CE"
+                  src="https://www.google.com/maps?q=Centro+Ubajara+Ceara&output=embed"
+                  className="absolute inset-0 w-full h-full grayscale contrast-125"
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                />
+              </div>
             </div>
           </div>
         </div>
