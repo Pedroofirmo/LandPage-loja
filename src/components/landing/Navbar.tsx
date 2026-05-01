@@ -9,8 +9,8 @@ const Navbar = () => {
       <nav className="container flex h-16 items-center justify-between">
         <a href="#top" className="flex items-center gap-2" aria-label="Ryan Cell Importados">
           <img src={logo} alt="Ryan Cell Importados" className="h-12 w-auto object-contain" />
-          <span className="font-display text-lg md:text-xl font-bold tracking-tight text-gradient-gold">
-            Ryan Cell
+          <span className="font-display text-lg md:text-xl font-bold tracking-tight">
+            <span className="text-white">Ryan</span> <span className="text-gradient-gold">Cell</span>
           </span>
         </a>
         <div className="hidden md:flex items-center gap-8 text-sm text-muted-foreground">

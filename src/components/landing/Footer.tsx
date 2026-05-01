@@ -6,7 +6,9 @@ const Footer = () => {
       <div className="container flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
         <div className="flex items-center gap-3">
           <img src={logo} alt="Ryan Cell Importados" className="h-10 w-auto object-contain" />
-          <span className="font-display font-bold text-gradient-gold text-base">Ryan Cell</span>
+          <span className="font-display font-bold text-base">
+            <span className="text-white">Ryan</span> <span className="text-gradient-gold">Cell</span>
+          </span>
           <span>· Ubajara/CE</span>
         </div>
         <div>© {new Date().getFullYear()} Ryan Cell Importados. Todos os direitos reservados.</div>
