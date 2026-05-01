@@ -19,9 +19,14 @@ const Navbar = () => {
           <a href="#pagamento" className="hover:text-foreground transition-colors">Pagamento</a>
           <a href="#contato" className="hover:text-foreground transition-colors">Contato</a>
         </div>
-        <Button variant="hero" size="sm" asChild>
-          <a href={WHATSAPP} target="_blank" rel="noopener noreferrer">Fale conosco</a>
-        </Button>
+        <a
+          href={WHATSAPP}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-semibold h-9 px-3 bg-gradient-to-r from-primary to-primary-glow text-primary-foreground shadow-gold hover:-translate-y-0.5 transition-all duration-300"
+        >
+          Fale conosco
+        </a>
       </nav>
     </header>
   );
