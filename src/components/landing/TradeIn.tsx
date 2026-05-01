@@ -2,7 +2,7 @@ import tradeImg from "@/assets/trade-in.jpg";
 import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
 
-const WHATSAPP = "https://wa.me/5588000000000?text=Ol%C3%A1%2C%20quero%20avaliar%20meu%20iPhone%20para%20entrada";
+const WHATSAPP = "https://wa.me/5588992266796?text=Ol%C3%A1%20Ryan%20Cell%21%20Vim%20pelo%20site%20e%20tenho%20interesse%20em%20comprar%20um%20aparelho%20%F0%9F%93%B1.%20Poderia%20me%20passar%20mais%20informa%C3%A7%C3%B5es%3F";
 
 const benefits = [
   "Avaliação rápida e justa do seu aparelho",
