@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { MapPin, MessageCircle, Clock, Instagram } from "lucide-react";
 import lojaImg from "@/assets/loja-ryancell.jpg";
 
-const WHATSAPP = "https://wa.me/5588000000000?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Ryan%20Cell";
+const WHATSAPP = "https://wa.me/5588992266796?text=Ol%C3%A1%20Ryan%20Cell%21%20Vim%20pelo%20site%20e%20tenho%20interesse%20em%20comprar%20um%20aparelho%20%F0%9F%93%B1.%20Poderia%20me%20passar%20mais%20informa%C3%A7%C3%B5es%3F";
 
 const Contact = () => {
   return (
@@ -48,7 +48,7 @@ const Contact = () => {
                   </a>
                 </Button>
                 <Button variant="glass" size="lg" asChild>
-                  <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.instagram.com/ryan_cll_ubajara_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">
                     <Instagram className="h-5 w-5" /> Instagram
                   </a>
                 </Button>
