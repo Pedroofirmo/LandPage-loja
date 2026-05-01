@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, ShieldCheck, Sparkles } from "lucide-react";
-import heroImage from "@/assets/hero-iphone.jpg";
+import heroImage from "@/assets/loja-ryancell.jpg";
 
 const WHATSAPP = "https://wa.me/5588992266796?text=Ol%C3%A1%20Ryan%20Cell%21%20Vim%20pelo%20site%20e%20tenho%20interesse%20em%20comprar%20um%20aparelho%20%F0%9F%93%B1.%20Poderia%20me%20passar%20mais%20informa%C3%A7%C3%B5es%3F";
 
@@ -38,7 +38,7 @@ const Hero = () => {
 
           <div className="mt-12 flex flex-wrap gap-8 text-sm">
             {[
-              { k: "100%", v: "Garantia" },
+              { k: "100%", v: "Confiança" },
               { k: "12x", v: "no cartão" },
               { k: "3 meses", v: "DE GARANTIA" },
             ].map((s) => (
@@ -54,10 +54,10 @@ const Hero = () => {
           <div className="relative aspect-square rounded-[2rem] overflow-hidden shadow-elegant border border-border">
             <img
               src={heroImage}
-              alt="iPhone premium em destaque na Ryan Cell"
+              alt="Loja Ryan Cell Importados em Ubajara/CE com vasta variedade de iPhones"
               width={1536}
               height={1536}
-              className="w-full h-full object-cover animate-float"
+              className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-background/60 via-transparent to-transparent pointer-events-none" />
           </div>
