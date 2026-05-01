@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { MapPin, MessageCircle, Clock, Instagram } from "lucide-react";
 import clientesImg from "@/assets/clientes-ryancell.jpg";
+import estoqueImg from "@/assets/estoque-ryancell.jpg";
 
 const WHATSAPP = "https://wa.me/5588992266796?text=Ol%C3%A1%20Ryan%20Cell%21%20Vim%20pelo%20site%20e%20tenho%20interesse%20em%20comprar%20um%20aparelho%20%F0%9F%93%B1.%20Poderia%20me%20passar%20mais%20informa%C3%A7%C3%B5es%3F";
 
@@ -69,6 +70,21 @@ const Contact = () => {
                     Nossos clientes
                   </span>
                   <span className="text-xs text-foreground/90">Quem nos visita, sai feliz</span>
+                </div>
+              </div>
+              <div className="relative aspect-[4/3] rounded-3xl overflow-hidden border border-primary/30 shadow-elegant group">
+                <img
+                  src={estoqueImg}
+                  alt="Mais de 200 aparelhos em estoque na Ryan Cell — iPhones, Xiaomi, Redmi e tablets"
+                  loading="lazy"
+                  className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent pointer-events-none" />
+                <div className="absolute bottom-4 left-4 right-4 flex items-center gap-2">
+                  <span className="rounded-full bg-primary text-primary-foreground px-3 py-1 text-[11px] font-bold uppercase tracking-wider shadow-gold">
+                    Estoque
+                  </span>
+                  <span className="text-xs text-foreground/90">+200 aparelhos para você escolher</span>
                 </div>
               </div>
               <div className="relative aspect-[16/10] rounded-2xl overflow-hidden border border-border">
